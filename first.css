@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position:fixed;
+    width:90%;
+    z-index: 67337;
+    top: 0;
+}
+.main-content{
+    margin:25% auto;
+}
+.bg-w{
+    background-color: white;
+}
+.wrap{
+    margin: 1% 5%;
+    background-color: #f3f2e0;
+}
+#name{
+    font-family: 'Yellowtail', 'cursive';
+    font-size: x-large;
+    color: #4c78ef;
+}
+.a{
+    background-color: #ffffff;  
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+   border: 1.5px solid;
+   margin: 0.5% 1.08em 0.5em 1.3em;
+}
+.btn-white{
+    width: 9rem;
+    border-radius: 20% / 88%;
+    height: 30px;
+    font-size: larger;
+    color: black;
+    margin-left: 1.05em;
+}
+.btn-black{
+    width: 9rem;
+    border-radius: 20% / 88%;
+    height: 30px;
+    font-size: medium;
+    background-color: #262626;
+    color: white;
+    margin-left: 1.05em;
+}
+
+button:hover{
+ font-size: 1.3em;
+}
+.btn-div{
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    margin-left: 2%;
+    margin: 2% 0 2% 2.5%;
+    font-size: 1.1em;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+    font-size: 1.17em;
+}
+.pic-container{
+    width: 31%;
+    background-color: #f0ebe6;
+    border: 1px solid #dbd0c8;
+}
+.img{
+    width: 80%;
+    margin:9.8%
+}
+#talkbubble {
+    width: 120px;
+    height: 80px;
+    background: black;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Yellowtail;
+    font-size: x-large;
+  }
+  #talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid black;
+    border-bottom: 13px solid transparent;
+  }
+  h2{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 3% 0%;
+ 
+    font-size: xx-large;
+  }
+  .violet{
+    color: #953295;
+  }
+.margin{
+      margin: 1% 8%;
+  }
+  .section{
+      border: 1px solid #dbd0c8;
+      margin: 0 8% 1% 8% ;
+      padding: 1% 1%;
+  }
+  P{
+      text-align: center;
+  }
+  /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 75%; background-color: #2196F3;} /* Blue */
+.js {width: 60%; background-color: #f44336;} /* Red */
+.nodejs {width: 55%; background-color: #808080;} /* Dark Grey */
