@@ -3,13 +3,13 @@
     padding: 0;
 }
 header{
-    position:fixed;
-    width:90%;
+    
+    width:100%;
     z-index: 67337;
     top: 0;
 }
 .main-content{
-    margin:25% auto;
+    margin:15% auto;
 }
 .bg-w{
     background-color: white;
@@ -26,7 +26,13 @@ header{
 .a{
     background-color: #ffffff;  
 }
+.card{
+    width: 30%;
+     height: auto;
+      display: inline-block !important;
 
+      margin-left: 14%;
+}
 .flex{
     display: flex;
     justify-content: space-between;
