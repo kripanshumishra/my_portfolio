@@ -13,6 +13,10 @@
     --white-color:#fff;
 
 }
+a{
+  text-decoration:none;
+  color: inherit;
+}
 body{
   font-family: 'Ubuntu', sans-serif;
 }
